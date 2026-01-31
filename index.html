@@ -5,8 +5,37 @@
     <title>Untitled</title>
     <link rel="stylesheet" href="css/styles.css">
     
+    <style>
+      .square {
+        height: 60vh;
+        width: 85vw;
+        background-color: blue;
+        justify-self: center;
+        animation-name: startup;
+        animation-duration: 1s;
+      }
+      
+      @keyframes startup{
+        0% {
+          transform: translateY(100vh);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+    </style>
+    
   </head>
   <body>
-    <h1>i pooped my pants</h1>
+    <div class="title">
+      <h1>
+      POSTER<br>MOCKUP
+      </h1>
+    </div>
+    
+    <div class="asterisk">*</div>
+    
+    <div class="square"></div>
   </body>
+
 </html>
