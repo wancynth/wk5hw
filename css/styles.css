@@ -17,7 +17,7 @@ p {
 
 @keyframes startup{
         0% {
-          transform: translateY(100vh);
+          transform: translateY(200vh);
         }
         100% {
           transform: translateY(0);
@@ -168,7 +168,7 @@ div.title {
   align-items: center;
   overflow: hidden;
 
-/*   background: red; */
+  background: red;
   position: absolute;
   width: 30%;
   height: 15%;
@@ -183,7 +183,7 @@ div.title {
 .square > .text-container-right {
   align-items: center;
   overflow: hidden;
-/*   background: red; */
+  background: red;
   position: absolute;
   width: 30%;
   height: 15%;
