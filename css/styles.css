@@ -58,7 +58,9 @@ p {
         animation-name: startup;
         animation-duration: 1s;
         z-index: -1;
-        display: grid;
+        display: flex;
+  justify-content: center;
+  align-items: flex-end;
       }
 
 .top-container{
