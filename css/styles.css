@@ -180,7 +180,7 @@ div.title {
 
 }
 
-.text-container-right {
+.square > .text-container-right {
   align-items: center;
   overflow: hidden;
 /*   background: red; */
