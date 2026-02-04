@@ -164,7 +164,7 @@ div.title {
   animation: rotating 3s infinite; 
 }
 
-.text-container-left {
+.square > .text-container-left {
   align-items: center;
   overflow: hidden;
 
