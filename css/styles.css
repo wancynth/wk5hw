@@ -116,7 +116,7 @@ p {
   position: relative;
 /*   background: red; */
   width: 100vw;
-  height: 80vh;
+  height: 100vw;
   justify-self: center;
   align-content: center;
 }
